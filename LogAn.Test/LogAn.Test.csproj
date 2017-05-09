@@ -57,6 +57,9 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LogAnalyzerExtractOverrideTest.cs" />
+    <Compile Include="LogAnalyzerPropInjectTest.cs" />
+    <Compile Include="LogAnalyzerConstuctorInjectTest.cs" />
     <Compile Include="LogAnalyzerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

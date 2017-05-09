@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
+using LogAnalyzerConstuctorInject;
 
 namespace LogAn
 {
-    public class LogAnalyzer
+    public class FileExtensionManager : IExtensionManager
     {
-        public bool IsValidLogFileName(string fileName)
+        public bool IsValid(string fileName)
         {
             if (string.IsNullOrEmpty(fileName))
             {
@@ -19,11 +16,6 @@ namespace LogAn
                 return false;
             }
             return true;
-        }
-
-        public static void Main()
-        {
-
         }
     }
 }
